@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    box-sizing: border-box;
+    background-color: rgba(253, 238, 218, 0.76);
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.section-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: 15px;
+    border-radius: 1.25rem;
+    background-color: white;
+    padding: 2.5rem 2rem;
+    box-shadow: 12px 12px 0.5px 1px rgba(220, 211, 199, 0.76);
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 2rem;
+}
+
+.share {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.share-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EFECEC;
+}
+
+.share-btn:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+img {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.copy-text {
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #EFECEC;
+    margin: 0 2.5rem;
+    padding: 0.25rem 0;
+    border-radius: 0.25rem;
+}
+
+.copy-btn {
+    background: transparent;
+    border: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: bold;
+}
